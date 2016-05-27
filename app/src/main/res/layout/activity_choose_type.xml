@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_size_12"
+        android:text="@string/please_choose" />
+
+    <lee.vioson.caipu.views.FlowLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/normal_size_20"
+        android:background="@drawable/bg_btn"
+        android:enabled="false"
+        android:onClick="click"
+        android:text="@string/start_use" />
+</LinearLayout>

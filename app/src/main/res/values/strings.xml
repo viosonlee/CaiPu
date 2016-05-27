@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">买太狼菜谱</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search_result">search_result</string>
+    <string name="net_error">加载数据失败，请检查网络</string>
+    <string name="type_search">选择菜型</string>
+    <string name="like">我的收藏</string>
+    <string name="type_list">选择分类</string>
+    <string name="navigation_drawer_open">打开菜单</string>
+    <string name="navigation_drawer_close">关闭菜单</string>
+    <string name="start_use">开始使用</string>
+    <string name="reload">重新加载</string>
+    <string name="choose_type">关注类型</string>
+    <string name="please_choose">请选择您喜欢的菜型</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <string name="no_more">暂无更多相关数据</string>
+</resources>
